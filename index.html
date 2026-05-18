@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKHIN.GO – Pembelajaran Akhlak Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+  ============================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo">AKHIN<span>.GO</span></a>
+
+      <!-- Hamburger Button (hanya muncul di mobile) -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Buka menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Menu navigasi -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero"    class="nav-link">Beranda</a></li>
+        <li><a href="#masalah" class="nav-link">Masalah</a></li>
+        <li><a href="#solusi"  class="nav-link">Solusi</a></li>
+        <li><a href="#fitur"   class="nav-link">Fitur</a></li>
+        <li><a href="#akses"   class="nav-link">Akses</a></li>
+        <li><a href="#tim"     class="nav-link">Tim</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==============================
+       SECTION 1: HERO
+  ============================== -->
+  <section class="hero" id="hero">
+    <!-- Dekorasi latar belakang -->
+    <div class="hero-bg-decor"></div>
+
+    <div class="hero-container">
+      <!-- Kolom kiri: teks -->
+      <div class="hero-text fade-in">
+        <span class="hero-badge">🌟 Aplikasi Pembelajaran Akhlak</span>
+        <h1 class="hero-title">AKHIN<span>.GO</span></h1>
+        <p class="hero-tagline">Merubah Generasi Modern yang Berakhlak Sesuai Akhlak Nabi</p>
+        <p class="hero-desc">
+          Akhin Go merupakan sebuah aplikasi pembelajaran yang membahas dan berfokus pada
+          pendidikan akhlak dan ditujukan untuk siswa SD. Belajar jadi seru, bermakna, dan menyentuh hati.
+        </p>
+        <div class="hero-buttons">
+          <a href="belajar.html" class="btn btn-primary">Ayo Belajar Sekarang →</a>
+          <a href="#solusi" class="btn btn-outline">Pelajari Lebih Lanjut</a>
+        </div>
+      </div>
+
+      <!-- Kolom kanan: gambar mockup -->
+      <div class="hero-image fade-in fade-in-delay">
+        <div class="hero-img-wrapper">
+          <img
+            src="https://i.ibb.co.com/TdTb6zH/Screenshot-2026-05-16-214649.png"
+            alt="GAMBAR LAYAR AKHIN GO"
+            class="hero-img"
+            onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+          />
+          <!-- Fallback jika gambar gagal dimuat -->
+          <div class="img-fallback">📱 Gambar belum ditambahkan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 2: MASALAH
+  ============================== -->
+  <section class="masalah section" id="masalah">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Latar Belakang</span>
+        <h2>Kurangnya Pembelajaran Akhlak yang Menarik di Era Digital</h2>
+        <p class="section-intro">
+          Pembelajaran akhlak seringkali kurang menarik dan tidak interaktif bagi siswa.
+          Terutama bagi siswa sekolah dasar yang membutuhkan pendekatan yang lebih kreatif dan menyenangkan.
+        </p>
+      </div>
+
+      <!-- 3 Card Masalah -->
+      <div class="masalah-grid">
+
+        <div class="masalah-card fade-in">
+          <div class="masalah-icon">📚</div>
+          <h3>Metode Konvensional</h3>
+          <p>Metode pembelajaran akhlak masih didominasi pendekatan konvensional yang kurang relevan dengan gaya belajar generasi digital.</p>
+        </div>
+
+        <div class="masalah-card fade-in">
+          <div class="masalah-icon">📱</div>
+          <h3>Minimnya Media Digital</h3>
+          <p>Minimnya media pembelajaran digital yang relevan dan sesuai dengan karakter generasi masa kini yang tumbuh bersama teknologi.</p>
+        </div>
+
+        <div class="masalah-card fade-in">
+          <div class="masalah-icon">🌱</div>
+          <h3>Implementasi Kurang Optimal</h3>
+          <p>Nilai-nilai akhlak belum terimplementasi secara optimal dalam kehidupan sehari-hari siswa sekolah dasar.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 3: SOLUSI
+  ============================== -->
+  <section class="solusi section" id="solusi">
+    <div class="container">
+      <div class="solusi-inner">
+
+        <!-- Gambar kiri -->
+        <div class="solusi-image fade-in">
+          <div class="solusi-img-wrapper">
+            <img
+              src="https://i.ibb.co.com/bRK1GNCn/Gemini-Generated-Image-wjnzffwjnzffwjnz.png"
+              alt="GAMBAR_MANFAAT"
+              class="solusi-img"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">🖼️ Gambar belum ditambahkan</div>
+          </div>
+        </div>
+
+        <!-- Teks kanan -->
+        <div class="solusi-text fade-in">
+          <span class="section-tag">Tentang Produk</span>
+          <h2>Akhin GO : Solusi Cerdas Pembelajaran Akhlak di Era Digital</h2>
+          <p class="solusi-cara-kerja">
+            Melalui Akhin.go, pengguna akan merasakan pengalaman belajar yang tidak membosankan:
+            mulai dari mempelajari modul interaktif, menyaksikan video edukatif, bermain game edukatif,
+            hingga mengerjakan kuis reflektif yang membantu menghubungkan materi dengan kehidupan nyata.
+          </p>
+
+          <!-- Daftar manfaat -->
+          <ul class="manfaat-list">
+            <li>
+              <span class="manfaat-icon">✅</span>
+              <span>Belajar akhlak jadi lebih seru dan mudah dipahami</span>
+            </li>
+            <li>
+              <span class="manfaat-icon">✅</span>
+              <span>Mendorong perubahan perilaku nyata dalam kehidupan sehari-hari</span>
+            </li>
+            <li>
+              <span class="manfaat-icon">✅</span>
+              <span>Menjadi solusi praktis bagi pendidik dalam menghadirkan pembelajaran digital</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 4: FITUR UTAMA
+  ============================== -->
+  <section class="fitur section" id="fitur">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Keunggulan</span>
+        <h2>Fitur Unggulan Akhin.go yang Membuat Belajar Akhlak Jadi Lebih Hidup</h2>
+        <p class="section-intro">
+          AKHIN GO mengajak siswa menjelajahi indahnya adab Islam melalui pengalaman belajar yang interaktif
+          dan menyenangkan. Dirancang khusus untuk memandu anak-anak mempraktikkan akhlak terpuji mulai dari
+          rumah, sekolah, hingga lingkungan sekitar dengan cara yang aplikatif.
+        </p>
+      </div>
+
+      <!-- Grid 4 fitur -->
+      <div class="fitur-grid">
+
+        <div class="fitur-card fade-in">
+          <div class="fitur-icon">📖</div>
+          <h3>Modul Adab Tematik</h3>
+          <p>
+            Materi pembelajaran adab sehari-hari yang dikemas rapi, mulai dari Birrul Walidain,
+            menghormati guru dan teman, hingga menjaga kebersihan lingkungan agar mudah dipahami oleh siswa.
+          </p>
+        </div>
+
+        <div class="fitur-card fade-in">
+          <div class="fitur-icon">🎬</div>
+          <h3>Video Animasi</h3>
+          <p>
+            Sajian video animasi pendek yang memberikan contoh visual teladan akhlak yang baik,
+            seperti animasi merespons panggilan ibu, skenario berbagi dengan teman, hingga aksi
+            menyayangi hewan di lingkungan sekitar.
+          </p>
+        </div>
+
+        <div class="fitur-card fade-in">
+          <div class="fitur-icon">🎮</div>
+          <h3>Game Edukatif Interaktif</h3>
+          <p>
+            Belajar adab menjadi lebih asyik melalui permainan interaktif, seperti game menjodohkan
+            situasi di sekolah dengan perilaku santun yang tepat untuk melatih kepekaan sosial siswa.
+          </p>
+        </div>
+
+        <div class="fitur-card fade-in">
+          <div class="fitur-icon">📝</div>
+          <h3>Kuis &amp; Refleksi Diri</h3>
+          <p>
+            Fitur evaluasi berupa kuis interaktif "Pilih Sikap yang Benar" serta checklist harian
+            "Aksi Adabku Hari Ini" yang dirancang untuk mendorong siswa mempraktikkan kebaikan
+            secara nyata setiap harinya.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 5: AKSES PRODUK / DEMO
+  ============================== -->
+  <section class="akses section" id="akses">
+    <div class="container">
+      <div class="akses-inner fade-in">
+        <span class="section-tag light">Coba Sekarang</span>
+        <h2>Belajar Itu Seru!</h2>
+        <p>Coba pengalaman belajar berbasis web. Jelajahi materi, video, game, dan kuis interaktif yang dirancang khusus untuk siswa SD.</p>
+        <div class="akses-buttons">
+          <!-- Tombol utama menuju halaman pembelajaran -->
+          <a href="belajar.html" class="btn btn-white">
+            🚀 Ayo Belajar
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 6: TIM
+  ============================== -->
+  <section class="tim section" id="tim">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Pengembang</span>
+        <h2>SAHABAT AKHIN</h2>
+        <p class="section-intro">Kelompok 1 PAI 24 A Pengembangan Aplikasi</p>
+      </div>
+
+      <!-- Grid anggota tim -->
+      <div class="tim-grid">
+
+        <!-- Anggota 1 -->
+        <div class="tim-card fade-in">
+          <div class="tim-foto-wrapper">
+            <img
+              src="https://i.ibb.co.com/9kpKrzXV/Whats-App-Image-2026-04-28-at-19-47-34.jpg"
+              alt="FOTO EISNAINI SUCI WAHYUNINGRUM"
+              class="tim-foto"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">👤</div>
+          </div>
+          <h4>Eisnaini Suci Wahyuningrum</h4>
+          <span class="tim-peran">Project Manager</span>
+        </div>
+
+        <!-- Anggota 2 -->
+        <div class="tim-card fade-in">
+          <div class="tim-foto-wrapper">
+            <img
+              src="https://i.ibb.co.com/CsWjSHGQ/Whats-App-Image-2026-04-28-at-19-38-56.jpg"
+              alt="FOTO ST. KURNIA ARSYAD"
+              class="tim-foto"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">👤</div>
+          </div>
+          <h4>St. Kurnia Arsyad</h4>
+          <span class="tim-peran">Full Stack Developer</span>
+        </div>
+
+        <!-- Anggota 3 -->
+        <div class="tim-card fade-in">
+          <div class="tim-foto-wrapper">
+            <img
+              src="https://i.ibb.co.com/0SQ0tby/Whats-App-Image-2026-04-28-at-19-42-47.jpg"
+              alt="FOTO AISYAH NUR'AINI MUTHMAINNAH"
+              class="tim-foto"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">👤</div>
+          </div>
+          <h4>Aisyah Nur'aini Muthmainnah</h4>
+          <span class="tim-peran">Instructional Designer</span>
+        </div>
+
+        <!-- Anggota 4 -->
+        <div class="tim-card fade-in">
+          <div class="tim-foto-wrapper">
+            <img
+              src="https://i.ibb.co.com/847V5Qkr/Whats-App-Image-2026-04-28-at-19-41-24.jpg"
+              alt="FOTO IQBAL MUTTAFAQ ALAIHI"
+              class="tim-foto"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">👤</div>
+          </div>
+          <h4>Iqbal Muttafaq Alaihi</h4>
+          <span class="tim-peran">UI/UX Designer</span>
+        </div>
+
+        <!-- Anggota 5 -->
+        <div class="tim-card fade-in">
+          <div class="tim-foto-wrapper">
+            <img
+              src="https://i.ibb.co.com/bgrf1XT9/Whats-App-Image-2026-04-28-at-19-38-16.jpg"
+              alt="FOTO HABBIB HUSEIN ASY SYA'BI"
+              class="tim-foto"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">👤</div>
+          </div>
+          <h4>Habbib Husein Asy Sya'bi</h4>
+          <span class="tim-peran">Content &amp; Multimedia Creator</span>
+        </div>
+
+        <!-- Anggota 6 -->
+        <div class="tim-card fade-in">
+          <div class="tim-foto-wrapper">
+            <img
+              src="https://i.ibb.co.com/TQWRnK3/Whats-App-Image-2026-04-28-at-19-38-28.jpg"
+              alt="FOTO HAMAM AUFA ALHAITSAMI"
+              class="tim-foto"
+              onerror="this.parentElement.classList.add('img-error'); this.style.display='none';"
+            />
+            <div class="img-fallback">👤</div>
+          </div>
+          <h4>Hamam Aufa Alhaitsami</h4>
+          <span class="tim-peran">Quality Assurance &amp; Evaluator</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <span class="footer-logo">AKHIN<span>.GO</span></span>
+          <p>Mengembangkan pembelajaran akhlak berbasis teknologi untuk generasi yang lebih baik.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h5>Navigasi</h5>
+          <ul>
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#masalah">Masalah</a></li>
+            <li><a href="#solusi">Solusi</a></li>
+            <li><a href="#fitur">Fitur</a></li>
+            <li><a href="#akses">Akses</a></li>
+            <li><a href="#tim">Tim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h5>Tentang Kami</h5>
+          <p>Kelas A Pendidikan Agama Islam</p>
+          <p>Kelompok 1 · Pengembangan Aplikasi</p>
+          <p>Tahun 2026</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 AKHIN GO – Kelas A Pendidikan Agama Islam. Hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
